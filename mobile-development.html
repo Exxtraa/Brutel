@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development - Brutel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>BRUTEL</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" id="menuClose"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#pricing">Pricing</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="menuOpen"></i>
+        </nav>
+    </header>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <section id="mobile-hero" class="hero">
+        <div class="hero-content">
+            <h1>Mobile App Development</h1>
+            <p>Creating powerful mobile experiences for iOS and Android</p>
+            <div class="hero-btns">
+                <a href="#ios" class="btn primary-btn">iOS Development</a>
+                <a href="#android" class="btn secondary-btn">Android Development</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ios" class="mobile-section">
+        <div class="section-heading">
+            <h2>iOS App Development</h2>
+            <p>Native iOS applications built with Swift</p>
+        </div>
+        <div class="mobile-content">
+            <div class="mobile-text">
+                <h3>Why Choose Native iOS Development?</h3>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Superior performance and responsiveness</li>
+                    <li><i class="fas fa-check"></i> Access to latest iOS features and APIs</li>
+                    <li><i class="fas fa-check"></i> Seamless integration with Apple ecosystem</li>
+                    <li><i class="fas fa-check"></i> Enhanced security and privacy</li>
+                    <li><i class="fas fa-check"></i> Optimized for iPhone and iPad</li>
+                </ul>
+                <div class="tech-stack">
+                    <h4>Our Tech Stack:</h4>
+                    <div class="tech-icons">
+                        <i class="fab fa-swift" title="Swift"></i>
+                        <i class="fab fa-apple" title="iOS"></i>
+                        <i class="fas fa-mobile-alt" title="Native Development"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-image">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="iOS Development">
+            </div>
+        </div>
+    </section>
+
+    <section id="android" class="mobile-section">
+        <div class="section-heading">
+            <h2>Android App Development</h2>
+            <p>Native Android applications built with Kotlin</p>
+        </div>
+        <div class="mobile-content reverse">
+            <div class="mobile-text">
+                <h3>Why Choose Native Android Development?</h3>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Maximum performance and efficiency</li>
+                    <li><i class="fas fa-check"></i> Full access to Android features</li>
+                    <li><i class="fas fa-check"></i> Material Design implementation</li>
+                    <li><i class="fas fa-check"></i> Wide device compatibility</li>
+                    <li><i class="fas fa-check"></i> Google Play Store optimization</li>
+                </ul>
+                <div class="tech-stack">
+                    <h4>Our Tech Stack:</h4>
+                    <div class="tech-icons">
+                        <i class="fab fa-android" title="Android"></i>
+                        <i class="fas fa-code" title="Kotlin"></i>
+                        <i class="fas fa-mobile-alt" title="Native Development"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-image">
+                <img src="https://images.unsplash.com/photo-1616849534446-9e66e4860673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Android Development">
+            </div>
+        </div>
+    </section>
+
+    <section id="cross-platform" class="mobile-section">
+        <div class="section-heading">
+            <h2>Cross-Platform Development</h2>
+            <p>Unified solutions for iOS and Android</p>
+        </div>
+        <div class="mobile-content">
+            <div class="mobile-text">
+                <h3>Why Choose Cross-Platform Development?</h3>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Single codebase for both platforms</li>
+                    <li><i class="fas fa-check"></i> Faster development and deployment</li>
+                    <li><i class="fas fa-check"></i> Cost-effective solution</li>
+                    <li><i class="fas fa-check"></i> Consistent user experience</li>
+                    <li><i class="fas fa-check"></i> Easy maintenance and updates</li>
+                </ul>
+                <div class="tech-stack">
+                    <h4>Our Tech Stack:</h4>
+                    <div class="tech-icons">
+                        <i class="fab fa-react" title="React Native"></i>
+                        <i class="fas fa-code" title="Flutter"></i>
+                        <i class="fas fa-mobile-alt" title="Cross-Platform"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-image">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Cross-Platform Development">
+            </div>
+        </div>
+    </section>
+
+    <section id="design" class="mobile-section">
+        <div class="section-heading">
+            <h2>Mobile UI/UX Design</h2>
+            <p>Creating intuitive and engaging mobile interfaces</p>
+        </div>
+        <div class="mobile-content reverse">
+            <div class="mobile-text">
+                <h3>Our Design Process</h3>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> User research and analysis</li>
+                    <li><i class="fas fa-check"></i> Wireframing and prototyping</li>
+                    <li><i class="fas fa-check"></i> UI design with modern aesthetics</li>
+                    <li><i class="fas fa-check"></i> User testing and feedback</li>
+                    <li><i class="fas fa-check"></i> Iterative improvements</li>
+                </ul>
+                <div class="tech-stack">
+                    <h4>Our Design Tools:</h4>
+                    <div class="tech-icons">
+                        <i class="fab fa-figma" title="Figma"></i>
+                        <i class="fab fa-adobe" title="Adobe XD"></i>
+                        <i class="fas fa-paint-brush" title="UI Design"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-image">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Mobile UI/UX Design">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-heading">
+            <h2>Start Your Mobile App Project</h2>
+            <p>Let's discuss your mobile app requirements</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>123 Business Avenue, Tech City, TC 10101</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>arpitxtraa69@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xblgaekg" method="POST">
+                <input type="hidden" name="_subject" value="New mobile app inquiry">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="platform" name="platform" required>
+                        <option value="" disabled selected>Select Platform</option>
+                        <option value="ios">iOS</option>
+                        <option value="android">Android</option>
+                        <option value="cross-platform">Cross-Platform</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Tell us about your app idea" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>BRUTEL</h2>
+                <p>Building the future of mobile technology.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Brutel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
