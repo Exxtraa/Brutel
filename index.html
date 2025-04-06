@@ -431,6 +431,14 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/@vercel/analytics"></script>
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      va('beforeSend', function (payload) {
+        // Add any custom data you'd like to send with each event
+        return payload;
+      });
+    </script>
     <script src="script.js"></script>
 </body>
 </html> 
